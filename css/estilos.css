@@ -1,0 +1,224 @@
+body {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+header .contenedor {
+	display: flex;
+	justify-content: space-between;
+}
+header ul {
+	display: flex;
+}
+header ul li {
+	list-style: none;
+	margin-right: 20px;
+}
+a {
+	text-decoration: none;
+}
+.contenedor {
+	max-width: 1280px;
+	width: 90%;
+	margin: auto;
+}
+header {
+	background: linear-gradient(rgba(84, 93, 220, .8), rgba(96, 171, 245, .8)), url(../imagenes/1.jpg);
+	height: 100vh;
+	background-size: cover;
+}
+#contenedor-titulo-flex {
+	max-width: 1580px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 18vh 0;
+}
+h1 {
+	font-size: 60px;
+	color: white;
+	margin: 0;
+}
+h2 {
+	font-size: 25px;
+	color: white;
+}
+.contenedor-titulo {
+	text-align: center;
+}
+.contenedor-titulo a,
+#sobre-mi a,
+#blog a,
+#que-esperas a,
+#contacto input[type="submit"] {
+	font-size: 14px;
+	color: white;
+	background: #5cb8ff;
+	padding: 14px 24px;
+	width: 135px;
+	display: inline-block;
+}
+p.logo {
+	color: white;
+	font-size: 20px;
+}
+nav ul li a {
+	color: white;
+}
+/*Seccion Sobre Mi*/
+h3 {
+	text-align: center;
+	font-size: 55px;
+	font-weight: normal;
+}
+#sobre-mi .contenedor-sobre-mi {
+	display: flex;
+	justify-content: space-around;
+}
+#sobre-mi .text {
+	width: 42%;
+}
+/*Seccion Servicios*/
+.contenedor-servicios {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	color: white;
+}
+.servicio {
+	width: 24%;
+	padding: 34px 30px 38px 30px;
+	border-radius: 5%;
+	margin-bottom: 40px;
+	position: relative;
+}
+.servicio h4 {
+	font-size: 30px;
+	margin: 0;
+}
+.servicio p {
+	margin-bottom: 20px;
+	height: 194px;
+}
+.contenedor-servicios .violeta {
+	background-image: linear-gradient(to top, #5055df, #6d68f3);
+	box-shadow: 0 12px 30px 0 rgba(80, 85, 223, .37);
+}
+.contenedor-servicios .celeste {
+	background-image: linear-gradient(to top, #40a8f9, #5cb8ff);
+	box-shadow: 0 12px 30px 0 rgba(86, 163, 223, .3);
+}
+.ondas {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.icono {
+	float: right;
+}
+/* Mis trabajos*/
+button.owl-prev,
+button.owl-next {
+	font-size: 40px !important;
+}
+span {
+	color: #1d89ca;
+}
+#mis-trabajos p {
+	text-align: center;
+	color: #000;
+}
+/*Seccion porque trabajar conmigo*/
+.contenedor-trabajar {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+#porque-trabajar .item {
+	width: 28%;
+	text-align: center;
+}
+#porque-trabajar li {
+	list-style: none;
+}
+#porque-trabajar ul li:nth-child(2) {
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+#porque-trabajar ul li:nth-child(3) {
+	line-height: 31px;
+}
+/*Aqui esta la seccion de BLOG*/
+#blog {
+	background: #f9fafc;
+}
+
+#blog .contenedor-publicaciones {
+	display: flex;
+	justify-content: space-around;
+}
+#blog .publicacion {
+	width: 30%;
+	box-shadow: 1px 1px 14px #ccc;
+}
+#blog img {
+	width: 100%;
+}
+#blog .contenido {
+	background: #fff;
+	padding: 20px;
+}
+#blog h4 {
+	font-size: 23px;
+	margin: 0;
+	margin-bottom: 15px;
+}
+#blog p {
+	color: #5a6169;
+	line-height: 24px;
+	font-size: 16px;
+}
+#blog a {
+	width: 85px;
+}
+/*Seccion ¿que esperas?*/
+#que-esperas {
+	background: linear-gradient(rgba(84, 93, 220, .90), rgba(96, 171, 245, .9));
+	text-align: center;
+	padding: 50px 0;
+	margin-top: 40px;
+}
+#que-esperas h3 {
+	font-size: 23px;
+	color: white;
+}
+/*Seccion de CONTACTO*/
+#contacto form {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 75%;
+	margin: auto;
+}
+input[type="text"],
+input[type="email"] {
+	width: 49%;
+	margin-bottom: 15px;
+	padding: 18px 0;
+	border: 0;
+	border-bottom: 1.5px solid #5cb8ff;
+	font-size: 17px;
+}
+textarea {
+	padding: 18px 0;
+	border: 0;
+	border-bottom: 1.5px solid #5cb8ff;
+	font-size: 17px;
+	margin-bottom: 40px;
+	width: 100%;
+}
+#contacto input[type="submit"] {
+	width: 170px;
+	margin: auto;
+}
